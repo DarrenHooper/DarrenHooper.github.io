@@ -1,0 +1,48 @@
+.main-content {
+  max-width: 960px;
+  margin: auto; }
+
+#personalInfo {
+  text-align: center; }
+
+#mainName {
+  text-align: center; }
+
+.sectionHeader {
+  background-color: #00007A;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  text-align: center; }
+
+#skillsTable {
+  border-collapse: collapse;
+  border: 1px solid black;
+  width: 100%;
+  table-layout: fixed; }
+  #skillsTable tr.headerRow {
+    font-weight: bold; }
+    #skillsTable tr.headerRow td {
+      border: 1px solid black; }
+  #skillsTable .sectionBorder {
+    border-right: 1px solid black; }
+  #skillsTable td {
+    padding: 5px; }
+
+.jobTitle {
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 10px; }
+
+.technicalSkills {
+  font-style: italic; }
+
+.educationTitle {
+  font-weight: bold;
+  margin-bottom: 10px; }
+
+.pointList {
+  margin-top: 5px; }
+
+/*# sourceMappingURL=resume.css.map */
