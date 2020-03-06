@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Love Checker</title>
+        <script type="text/javascript" src="js/feelings-check.js"></script>
+    </head>
+    <body>
+        <h1>Darren's Feeling Checker</h1>
+        <h3>Please enter a name below. We will then connect directly to Darren's brain to determine his feelings
+        about the subject</h3>
+        Please enter a name
+        <form onsubmit="event.preventDefault(); return randomDelay();">
+            <input type="text" id="nameEntry"/>
+            <button id="submitName" >Submit</button>
+        </form>
+        <br/>
+        <div id="delayText"></div>
+        <img id="giphyContainer"/>
+    </body>
+</html>
