@@ -30,7 +30,6 @@ checkName = () => {
     const giphyContainer = document.getElementById('giphyContainer');
     let newSrc = 'https://media.giphy.com/media/BBzeJCZ5FJ7pe/giphy.gif';
     if (name === 'sam' || name === 'samantha' || name === 'sammermangoes') {
-
         newSrc = milkAndMocha[getRandomInt(0, milkAndMocha.length - 1)];
     } else if (name === 'tawny') {
         newSrc = 'https://media.giphy.com/media/cNNCy3mTROEoiIowbI/giphy.gif'
@@ -43,6 +42,12 @@ checkName = () => {
     } else if (name === 'emmanuel' || name === 'richard' || name === 'rob' || name === 'ivan' || name === 'asad'
         || name === 'omar') {
         newSrc = 'https://media1.tenor.com/images/79d0ee6d963b4af95e6ad70bc3924272/tenor.gif?itemid=11264744'
+    } else if (name === 'eros') {
+        newSrc = 'https://media1.tenor.com/images/12303bb80f998c5b5720386c26ceff20/tenor.gif?itemid=14656677'
+    } else if (name === 'jason') {
+        newSrc= 'https://media1.tenor.com/images/6e472cddd0782dc81632291880673b98/tenor.gif?itemid=5256651'
+    } else if (name === 'andrew') {
+        newSrc = 'https://media1.tenor.com/images/3a30a744bd9835eeffccf4be609fdf00/tenor.gif?itemid=5071803'
     }
     giphyContainer.setAttribute('src', newSrc);
     giphyContainer.style.display = 'block';
@@ -54,7 +59,7 @@ randomDelay = () => {
     const giphyContainer = document.getElementById('giphyContainer');
 
     giphyContainer.style.display = 'none';
-    if (Math.random() < 1) {
+    if (Math.random() < 0.1) {
         let delayCount = 0;
         const delayField = document.getElementById('delayText');
         delayField.textContent = delayText[getRandomInt(0, delayText.length -1)];
