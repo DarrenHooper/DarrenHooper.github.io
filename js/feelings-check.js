@@ -54,7 +54,7 @@ checkName = () => {
         newSrc = 'https://media1.tenor.com/images/734bbe4cbc1599c3f6297078e13310a1/tenor.gif?itemid=15421998'
     } else if (name === 'francis' || name === 'francesca') {
         newSrc = 'https://media1.tenor.com/images/438373b9a9f0bb628cd194c35f467044/tenor.gif?itemid=5129636'
-    } else (name === 'david') {
+    } else if (name === 'david') {
         newSrc ='https://media1.tenor.com/images/677f6bc7f2413bcf9b1a4cf2547e642f/tenor.gif?itemid=4594397'
     }
     giphyContainer.setAttribute('src', newSrc);
